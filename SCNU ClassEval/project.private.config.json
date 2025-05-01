@@ -1,0 +1,95 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "评分页面",
+          "pathName": "pages/judge/judge",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "主页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "必修课程",
+          "pathName": "pages/courses/courses-compulsory/courses",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "选修",
+          "pathName": "pages/courses/courses-elective/courses",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "高数",
+          "pathName": "pages/teachers/math/math",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teachers/java/java",
+          "pathName": "pages/teachers/java/java",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teachers/database/database",
+          "pathName": "pages/teachers/database/database",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "添加数据",
+          "pathName": "pages/all/all",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teachers/alogrithm/alogrithm",
+          "pathName": "pages/teachers/alogrithm/alogrithm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teachers/art/art",
+          "pathName": "pages/teachers/art/art",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/ranking/ranking",
+          "pathName": "pages/ranking/ranking",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人主页",
+          "pathName": "pages/my/my",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

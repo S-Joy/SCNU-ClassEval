@@ -1,0 +1,10 @@
+<!--pages/courses/course-item-tpl/course-item-tpl.wxml-->
+<template name="courseItemTpl" >
+  <view class="course_view" style="background-image:url({{piclink}});background-size:cover">
+    <text class="course_text">{{coursename}}</text>
+    <text class="course_ltext">{{credit}}</text>
+    <view class="image_view">
+      <image src="/img/course-img/gothrough.png"></image>
+    </view>
+  </view>
+</template>

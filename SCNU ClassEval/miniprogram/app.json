@@ -1,0 +1,76 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/courses/courses-compulsory/courses",
+    "pages/courses/courses-elective/courses",
+    "pages/judge/judge",
+    "pages/teachers/art/art",
+    "pages/teachers/cs/cs",
+    "pages/teachers/health/health",
+    "pages/teachers/jewelry/jewelry",
+    "pages/teachers/linear/linear",
+    "pages/teachers/math/math",
+    "pages/teachers/PE/PE",
+    "pages/teachers/c/c",
+    "pages/teachers/java/java",
+    "pages/teachers/st/st",
+    "pages/teachers/database/database",
+    "pages/teachers/method/method",
+    "pages/teachers/require/require",
+    "pages/teachers/design/design",
+    "pages/teachers/test/test",
+    "pages/teachers/manage/manage",
+    "pages/teachers/alogrithm/alogrithm",
+    "pages/teachers/communicate/communicate",
+    "pages/teachers/structures/structures",
+    "pages/teachers/sj/sj",
+    "pages/teachers/sm/sm",
+    "pages/teachers/sh/sh",
+    "pages/teachers/handwriting-analysis/handwriting-analysis",
+    "pages/teachers/entrepreneurship-education/entrepreneurship-education",
+    "pages/teachers/Chinese-dress/Chinese-dress",
+    "pages/teachers/stick-figure/stick-figure",
+    "pages/teachers/social-etiquette/social-etiquette",
+    "pages/teachers/calligraphy/calligraphy",
+    "pages/teachers/private-economy/private-economy",
+    "pages/teachers/modern-history/modern-history",
+    "pages/teachers/music-appreciation/music-appreciation",
+    "pages/teachers/entrepreneurial-network/entrepreneurial-network",
+    "pages/teachers/buddhist-art/buddhist-art",
+    "pages/ranking/ranking",
+    "pages/logs/logs"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "SCNU课程宝",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "blue",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/homed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "img/user.png",
+        "selectedIconPath": "img/usered.png",
+        "text": "我的"
+      }]
+  
+}
+}

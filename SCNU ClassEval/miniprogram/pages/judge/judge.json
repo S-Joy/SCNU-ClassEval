@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {"myprogress":"../../components/progress/progress"},
+  "navigationBarTitleText":"老师评价",
+  "navigationBarBackgroundColor": "#B4A4F6",
+  "backgroundColor":"#B4A4F6"
+}

@@ -1,0 +1,94 @@
+page{
+  background-color: #9980FA;
+}
+.header{
+  width: 90vw; 
+  height: 90rpx;
+  background-color:#f5f6fa; border-radius: 30px;
+  margin:30rpx auto;
+  
+
+}
+/* .search{
+  display: flex;justify-content: space-between;align-items:center;height:100%;
+} */
+.search{
+  line-height: 90rpx;
+  padding-left: 30rpx;
+  display: flex;justify-content: space-between;align-items:center;height:100%;
+}
+image{
+  height:50rpx;
+  width: 50rpx;
+  overflow: hidden;
+}
+.teacher{
+  width: 80vw;
+  height: 90rpx;
+  font-size: 35rpx;
+  font-family: Helvetica;
+  color:#57606f;
+  
+  line-height: 90rpx;
+}
+
+.pic{
+  transform: scale(0.9);
+  height: 360rpx;
+  width: 270rpx;
+ padding: 10rpx;
+ border-radius: 25px;
+
+}
+.box{
+  background-color:#ffffff;
+  height:350rpx;
+  width: 290rpx;
+  padding: 20rpx;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.1); 
+  transform: scale(0.95);
+
+}
+.add{
+  height:50rpx;
+  width:50rpx;
+}
+.addgo{
+  margin-left:230rpx;
+}
+.wkMain{
+  margin-top:25rpx;
+  display: flex;
+  flex-wrap:wrap;
+  padding: 35rpx;
+  justify-content: space-between;
+}
+.select{
+  padding-right: 10rpx;
+  padding-top: 10rpx;
+}
+.bottom{
+display: block;
+}
+.text{
+  height: 5rpx;
+  color:#333;
+  margin-left:20rpx;
+  font-weight: bold;
+}
+
+.zero-list{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: gray;
+
+}
+.big{
+  transform:scale(0.5,0.5);
+  transition: 0.5s;
+}

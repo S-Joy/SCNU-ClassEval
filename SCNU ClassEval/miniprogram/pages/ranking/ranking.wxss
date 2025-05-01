@@ -1,0 +1,93 @@
+page {
+  background:#7e9c9e;
+}  
+
+
+.class_text {
+  color: black;
+  font-weight: 900;
+  font-size: 35rpx;
+ font-family: fantasy;
+ padding-top: 30rpx;
+ margin-left: 60rpx;
+}
+.teacher_text {
+  color: black;
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-top: 30rpx;
+  margin-left: 60rpx;
+}
+.score_text {
+  color: black;
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-top: 30rpx;
+  margin-left: 60rpx;
+}
+
+
+.bg{
+  background-color: #f1f2f6;
+  height: 15000rpx;
+border-radius: 60rpx 60rpx 0rpx 0rpx;
+padding-left:75rpx;
+padding-top: 5rpx;
+margin-top: 50rpx;
+
+}
+.ranktitle{
+  color: #fff;
+  font-family:"Microsoft YaHei";
+  font-weight: 600;
+  height: 70rpx;
+  font-size: 70rpx;
+  margin-left:60rpx ;
+  margin-top: 60rpx;
+}
+.first{
+  height: 300rpx;
+  background-color: #fff;
+  width: 600rpx;
+border-radius: 60rpx;
+border-right-color: #b89e14;
+border-right-width: 10rpx;
+border-right-style: solid;
+}
+.second{
+  height: 300rpx;
+  width: 600rpx;
+  background-color: #fff;
+  border-radius: 60rpx;
+  border-right-color: #c0c0c0;
+border-right-width: 10rpx;
+border-right-style: solid;
+}
+.third{
+  height: 300rpx;
+  width: 600rpx;
+  margin-top: 100rpx;
+  background-color: #fff;
+  border-radius: 60rpx;
+  border-right-color: #B87333;
+  border-right-width: 10rpx;
+  border-right-style: solid;
+}
+.rankbox{
+  height: 300rpx;
+  width: 600rpx;
+  background-color: #fff;
+  border-radius: 60rpx;
+  margin-top: 100rpx;
+  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.1);
+}
+.rankpic{
+  height: 250rpx;
+  width: 220rpx;
+ float: right;
+margin-right: 10rpx;
+}
+.picture{
+  height: 100%;
+  width: 100%;
+}

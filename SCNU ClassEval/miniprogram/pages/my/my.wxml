@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+<view class="top">
+</view>
+
+  <view class="userinfo">
+    <button wx:if="{{login===false}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">获取头像昵称</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{nickName}}</text>
+    </block>
+  </view>
+  
+</view>
+<view class="user_content">
+    <view class="user_main">
+        <view class="history_wrap">
+            <navigator bindtap='wait'>
+                <view class="history_num">0</view>
+                <view classs="history_name">评价的老师</view>
+            </navigator>
+             <navigator bindtap='wait'>
+                <view class="history_num">0</view>
+                <view classs="history_name">评价的课程</view>
+            </navigator> 
+        </view>
+        <view class="judge_wrap">
+            <view class="judge_content">
+                <navigator url="/pages/courses/courses" bindtap='wait'>
+                    <view class="fa icon-jiaolian1"></view>    
+                    <view class="judge_name">老师评价</view>   
+                </navigator>
+                <navigator url="/pages/courses/courses" bindtap='wait'>
+                    <view class="fa icon-kecheng"></view>    
+                    <view class="judge_name">课程评价</view>   
+                </navigator>
+                <navigator>
+                    <view class="fa .icon-profile"></view>    
+                    <view class="judge_name" bindtap='wait'>个人信息管理</view>   
+                </navigator>
+            </view>
+        </view>
+
+        <view class='app_info_wrap'>
+            <view class="app_info_item app_info_contact">
+               <button open-type="contact" class="contact">联系客服</button>
+            </view>
+            <view class="app_info_item app_info_contact">
+                <button open-type="feedback" class="contact" bindtap='wait'>意见反馈</button>
+            </view>
+            <view class="app_info_item app_info_contact">
+                <button  class="contact" bindtap='wait'>关于我们</button>
+            </view>
+        </view>   
+    </view>
+</view>

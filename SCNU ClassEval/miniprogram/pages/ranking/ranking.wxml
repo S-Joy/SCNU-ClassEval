@@ -1,0 +1,12 @@
+<view class="ranktitle">排行榜</view>
+<view class="bg">
+  <block wx:for="{{ranklist}}" wx:for-item="item" wx:for-index="idx" wx:key="index">
+    <view catchtap='toteacher' data-post-id="{{item.index}}">
+   <view class="{{idx==0?'first':'rankbox'}}" ><view class="{{idx==1?'second':'rankbox'}}" > <view class="{{idx==2?'third':'rankbox'}}" ><view class="rankbox">
+   <view class="rankpic"><image class="picture" src="{{item.sex=='female'?'https://i.loli.net/2021/02/03/4wu95l176YEUiAy.png':'https://i.loli.net/2021/02/03/GBrcAbYvCtWFniy.png'}}"></image></view>
+    <view class='class_text'>{{item.class}}</view>
+    <view class='score_text'>平均分：{{item.averagescore}}</view>
+    <view class='teacher_text'>任课老师：{{item.name}}</view>
+  </view></view>
+</view> </view></view> 
+</block></view> 

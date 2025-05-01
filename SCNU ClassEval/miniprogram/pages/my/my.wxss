@@ -1,0 +1,166 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2381715_tb2tcuuk0n.eot?t=1613989049212'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2381715_tb2tcuuk0n.eot?t=1613989049212#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('//at.alicdn.com/t/font_2381715_tb2tcuuk0n.woff?t=1613989049212') format('woff'),
+  url('//at.alicdn.com/t/font_2381715_tb2tcuuk0n.ttf?t=1613989049212') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2381715_tb2tcuuk0n.svg?t=1613989049212#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.fa {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiaolian1:before {
+  content: "\e69d";
+}
+
+.icon-kecheng:before {
+  content: "\e673";
+}
+
+.icon-profile:before {
+  content: "\e600";
+}
+.userinfo {
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 350rpx;
+  width: 80vw;
+  height: 220rpx;
+  border-radius: 30rpx;
+  background: white;
+  box-shadow: 6px 4px 16px 0px rgba(0,0,0,0.1); 
+  left: 50%;
+  margin-left: -40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listcontainer{
+  width: 80vw;
+  height: 200rpx;
+  border-radius: 30rpx;
+  background: white;
+  box-shadow: 6px 4px 16px 0px rgba(0,0,0,0.1); 
+  left: 50%;
+  margin-left: -40vw;
+  position: absolute;
+  top: 700rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color:#636e72;
+  font-weight: bold;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.top{
+  background-image: url(https://7363-scnuca-4gp9nq6bd1a6b150-1304921864.tcb.qcloud.la/mixkit-team-members-working-side-by-side-on-laptops-379-desktop-wallpaper.png?sign=0d82d7e1810701a8bc28c28a5f40c0bc&t=1613802478);
+  height: 450rpx;
+  background-size: contain;
+}
+.user_content {
+  position: relative;
+  margin-top: 150rpx;
+  margin-bottom: 150rpx;
+  padding-top: 20rpx;
+
+}
+.user_content .user_main {
+  position: relative;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+ 
+}
+.user_content .user_main .history_wrap {
+  background-color: white;
+
+  box-shadow: 6px 4px 16px 0px rgba(0,0,0,0.1); 
+  border-radius: 30rpx;
+  width: 80vw;
+  margin: 50rpx auto;
+  display: flex;
+  
+}
+
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.user_content .user_main .history_wrap navigator .history_num {
+  color: black;
+  
+}
+.user_content .user_main .history_wrap navigator .history_name {
+  color: black;
+ 
+}
+.user_content .judge_wrap {
+  background-color: white;
+  margin-top: 30rpx;
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 20rpx;
+}
+.user_content .judge_wrap .judge_content .judge_name{
+  font-size: 28rpx;
+}
+
+.user_content .judge_wrap .judge_content {
+  display: flex;
+  box-shadow: 6px 4px 16px 0px rgba(0, 0, 0, 0.1); 
+  border-radius: 30rpx;
+}
+.user_content .judge_wrap .judge_content navigator {
+  font-size: 30rpx;
+  padding: 20rpx 0;
+  flex: 1;
+  text-align: center;
+  
+}
+.user_content .judge_wrap .judge_content navigator .iconfont {
+  color: black;
+ 
+}
+.user_content .app_info_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+  box-shadow: 6px 4px 16px 0px rgba(0,0,0,0.1); 
+  border-radius: 30rpx;
+  width: 80vw;
+  margin: 30rpx auto;
+}
+.user_content .app_info_wrap .app_info_item {
+  padding: 20rpx;
+ 
+}
+.user_content .app_info_wrap .app_info_contact .contact {
+  margin-left: 20rpx;
+  display: flex;
+  font-size: 30rpx;
+  padding: 0 0rpx;
+  color: black;
+  background-color: white;
+
+}
+.user_content .app_info_wrap .app_info_contact .contact::after {
+  border: none;
+}

@@ -1,0 +1,69 @@
+<view class="container">
+  <view class="topnav">
+    <view class="title">
+      SCNU 课程宝
+    </view>
+  </view>
+
+    <swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="3000"
+      duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="rgba(47, 53, 66,1.0)">
+      <swiper-item wx:for="{{swiperList}}" wx:key="index" class="{{cardCur==index?'cur':''}}">
+        <view class="swiper-item">
+          <image src="{{item.fileid}}" mode="aspectFill" wx:if="{{item.type=='image'}}" show-menu-by-longpress></image>
+          <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover"
+            wx:if="{{item.type=='video'}}"></video>
+        </view>
+      </swiper-item>
+    </swiper>
+  
+  <view class="main1">
+    <view class="funname">
+      教师评分
+      <i class="fa fa-star" aria-hidden="true"></i>
+    </view>
+    <view class="line"></view>
+
+    <view class="slider">
+      <scroll-view class="scroll-view-h" scroll-left="{{swiper.x}}" scroll-x="true"
+        style="white-space: nowrap; display:flex ">
+        <view class="nav {{current_item==index?'big':''}} " wx:for="{{swiper.list}}" wx:key="index" data-i="{{index}}"
+          style="background-image:url({{item.url}});background-size:cover" bindtouchstart="magnify"
+          bindtouchend='return' bindtap="change">
+          <view class="mask"></view>
+          <view class="item">
+            <view class="itemname">{{item.name}}</view>
+            <view class="icon">
+              <image src="{{item.icon}}"></image>
+            </view>
+          </view>
+        </view>
+
+      </scroll-view>
+    </view>
+  </view>
+  <view class="main2">
+    <view class="funname">探索
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </view>
+    <view class="line"></view>
+
+    <view class="card-wrapper">
+
+
+      <view class="card {{magnify=='true'?'big':''}}"
+        style="background-image:url(https://i.loli.net/2021/01/25/iEXwm5u8YxZlvr9.png);;background-size:cover"
+        bindtouchstart="magnify1" bindtouchend='return1' bindtap="torank">
+        <view class="mask"></view>
+        <view class="text">老师排行榜</view>
+      </view>
+
+      <view class="card {{magnify2=='true'?'big2':''}}"
+        style="background-image:url(https://i.loli.net/2021/01/25/BZFlvC1IEUu25ca.png);background-size:cover"
+        bindtouchstart="magnify2" bindtouchend='return2' bindtap='toexercise'>
+        <view class="mask"></view>
+        <view class="text">课程练习</view>
+      </view>
+    </view>
+
+  </view>
+</view>

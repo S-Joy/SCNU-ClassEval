@@ -1,0 +1,22 @@
+<!--pages/courses/courses-compulsory/courses.wxml-->
+<import src="/pages/courses/course-item-tpl/course-item-tpl.wxml" />
+
+<view class="topnav">
+  <text class="title">课程</text>
+</view>
+
+<view class="searchbox">
+  <view class="search">
+    <input class="search-input course" type="text" bindinput="search" placeholder-style="color:#c8d6e5;font-size:30rpx "
+      placeholder="输入课程名称"></input>
+  </view>
+</view>
+
+  <view class="course_wrapper">
+    <block wx:for="{{courselist}}" wx:for-item="item" wx:for-index="idx" wx:key="index">
+      <view catchtap='toteacher' data-post-id="{{item.index}}">
+        <template is="courseItemTpl" data="{{...item}}" />
+      </view>
+    </block>
+  </view>
+  <view class="zero-list" wx:if="{{courselist.length==0}}">没有找到该课程</view>

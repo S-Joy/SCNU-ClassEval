@@ -1,0 +1,117 @@
+
+.progress-root-container {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  justify-content: center;
+  align-items: center;
+  height: 100rpx;
+  background:white;
+  margin: 10rpx 0;
+
+}
+
+.cat {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  left: 30rpx;
+ 
+}
+
+.progress-max {
+  position: absolute;
+  left: 153rpx;
+  height: 40rpx;
+  width: 428rpx;
+  z-index: 10;
+  border-radius: 30rpx;
+  border: 4px solid #f3f4f7;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+              -7px -7px 20px rgba(255, 255, 255, 1),
+              inset 0px 0px 4px rgba(255, 255, 255, 0),
+              inset 7px 7px 15px rgba(55, 84, 170, .15),
+              inset -7px -7px 20px rgba(255, 255, 255, 1),
+              0px 0px 4px rgba(255, 255, 255, .2) !important;
+  
+}
+
+.progress-current {
+  position: absolute;
+  left: 170rpx;
+  height: 25rpx;
+  width: 428rpx;
+  background: #185BF1;
+  border-radius: 16rpx;
+  z-index: 20;
+  opacity: 1;
+  animation: sliding 3s ease infinite;
+  
+}
+.pencent-text-mask{
+  position: absolute;
+  left:620rpx;
+  height: 80rpx;
+ text-align: center;
+
+  /* box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+              -7px -7px 20px rgba(255, 255, 255, 1),
+              0px 0px 4px rgba(255, 255, 255, .2);     */
+  background: #b2bec3;
+  opacity: .3;
+  transition: color .8s;
+  border-radius: 40rpx;
+
+}
+.pencent-text {
+  position: absolute;
+  left:620rpx;
+  /* top:10rpx; */
+  width: 80rpx;
+  height: 80rpx;
+ text-align: center;
+ line-height: 80rpx;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+              -7px -7px 20px rgba(255, 255, 255, 1),
+              0px 0px 4px rgba(255, 255, 255, .2);    
+  
+  font-weight: bold;
+  font-size: 30rpx;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* padding: 3rpx 0; */
+  transition: color .8s;
+  border-radius: 40rpx;
+  
+}
+/* .pencent-text::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -6px;
+  border-style: solid;
+  border-width: 6px 6px 0 6px;
+  border-color: #EBECF0 transparent transparent transparent;
+} */
+.slice-button {
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, .15), 0px 0px 15px rgba(55, 84, 170, .3);
+  width: 45rpx;
+  height: 45rpx;
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  z-index: 30;
+
+}
+.icon{
+  position: absolute;
+  left:650rpx;
+  font-size: 60rpx;
+  transition:color 1s;
+  width: 60rpx;
+  height: 60rpx;
+}

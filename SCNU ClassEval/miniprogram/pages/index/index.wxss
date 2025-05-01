@@ -1,0 +1,271 @@
+.container{
+  width:100%;
+  height: 100%;
+  overflow-x:hidden;
+  background: white;
+}
+
+.topnav{
+  height: 10vh;
+  font-size:40rpx;
+  font-weight: bold;
+  padding-left: 50rpx;
+  line-height: 10vh;
+  margin-bottom: 30rpx;
+  color: #26648E;
+  
+}
+
+@keyframes mymove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.noti{
+  width: 90vw;
+  height: 18vh;
+  background-image: linear-gradient(45deg, rgba(10, 61, 98,1.0),#537895, #4e4376);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+  animation: mymove 20s ease infinite;
+  
+  
+}
+.noti image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 40rpx;
+}
+.noti .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:40rpx;
+  line-height: 65rpx;
+  /* font-weight: bold; */
+  margin: 40rpx;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main1 .funname,
+.main2 .funname{
+  height: 6vh;
+  font-size:40rpx;
+  padding-left: 50rpx;
+  font-weight: bold;
+  /* background: rgba(24, 44, 97,.5); */
+  line-height: 6vh;
+  margin:25rpx 0 0 0;
+  
+}
+
+.scroll-view-h {
+  padding-left: 20rpx;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10rpx;
+  height: 22vh;
+ 
+}
+.nav {
+  margin: 20rpx 50rpx;
+  width: 60vw;
+  height: 20vh;
+  display: inline-block;
+  font-size: 26rpx;
+  border-radius: 12rpx;
+  transition: 0.5s;
+}
+
+.nav .item{
+  width: 60vw;
+  height: 20vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav  .mask{
+  width: 60vw;
+  height: 20vh;
+  background: rgba(53, 59, 72,.5);
+  border-radius: 12rpx;
+  z-index: 2;
+  position: absolute;
+  overflow: hidden;
+}
+.nav .item .itemname{
+  z-index: 4;
+  color: white;
+  font-size:50rpx;
+  position: relative;
+  text-align:center;
+  margin: 15rpx 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.nav .item .icon{
+  position: relative;
+  z-index: 4;
+  width: 60rpx;
+  height: 60rpx;
+  overflow: hidden;
+}
+.nav .item .icon image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.big{
+  transform:scale(0.8,0.8);
+  transition: 0.2s;
+}
+.big2{
+  transform:scale(0.8,0.8);
+  transition: 0.2s;
+}
+.main2{
+  margin-bottom: 200rpx;
+}
+.fa-star{
+  color: #40739e;
+  font-size:40rpx; 
+  margin-left: 10rpx;
+}
+.fa-search{
+  color: #40739e;
+  font-size:40rpx; 
+  margin-left: 10rpx;
+
+}
+/* .main1 .border,
+.main2 .border{
+  height: 5rpx;
+  width: 60rpx;
+  background:black;
+  margin-left: 52rpx;
+  margin-bottom: 25rpx;
+  line-height: 5rpx;
+} */
+.main1{
+  margin-bottom: 50rpx;
+}
+
+.line{
+  height: 5rpx;
+  width: 60rpx;
+  background:black;
+  margin-left: 52rpx;
+  margin-bottom: 25rpx;
+  line-height: 5rpx;
+  
+}
+/*card*/
+.card-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+ 
+}
+.card {
+  width: 80vw;
+  height: 25vh;
+  background-color: rgba(209, 204, 192,.5);
+  border-radius: 1rem;
+  box-shadow: 0 .2rem 2rem rgba(0, 0, 0, .1);
+  margin: 20rpx 0;
+  overflow: hidden;
+  transition: 0.5s;
+
+}
+
+.card image {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#f7f1e3;
+  width: 80vw;
+  height: 25vh;
+  font-size: 60rpx;
+  font-weight: 500;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: rgba(53, 59, 72,.8);
+  padding-bottom: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 15rpx;
+  
+}
+
+.card-swiper {
+	height: 420rpx !important;
+}
+
+.card-swiper swiper-item {
+	width: 610rpx !important;
+	left: 70rpx;
+	box-sizing: border-box;
+	padding: 40rpx 0rpx 70rpx;
+	overflow: initial;
+}
+
+.card-swiper swiper-item .swiper-item {
+	width: 100%;
+	display: block;
+	height: 100%;
+	border-radius: 10rpx;
+	transform: scale(0.9);
+	transition: all 0.2s ease-in 0s;
+	overflow: hidden;
+}
+
+.card-swiper swiper-item.cur .swiper-item {
+	transform: none;
+	transition: all 0.2s ease-in 0s;
+}
+swiper.square-dot .wx-swiper-dot {
+	background-color: var(--white);
+	opacity: 0.4;
+	width: 10rpx;
+	height: 10rpx;
+	border-radius: 20rpx;
+	margin: 0 8rpx !important;
+}
+
+swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
+	opacity: 1;
+	width: 30rpx;
+}
+.swiper-item image {
+	width: 100%;
+	display: block;
+	height: 100%;
+	margin: 0;
+	pointer-events: none;
+}

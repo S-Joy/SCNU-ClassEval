@@ -1,0 +1,21 @@
+<view class="header">
+  <view class="search">
+      <input class="search-input teacher" type="text" bindinput="search" placeholder-style="color:#cccccc;font-size:32rpx" placeholder="输入老师名称"></input>
+     
+</view>
+
+</view>
+
+<view class="wkMain">
+  <view class="box {{current_item==index?'big':''}}" wx:for='{{teacherlist}}' wx:for-item="items" wx:key="index"  bindtouchstart='magnify' bindtouchend='return' bindtap='tojudge' data-name="{{items.name}}" data-sex="{{items.sex}}">
+    <image class="pic" src="{{items.sex=='female'?'https://i.loli.net/2021/02/03/4wu95l176YEUiAy.png':'https://i.loli.net/2021/02/03/GBrcAbYvCtWFniy.png'}}"></image>
+      <view class="bottom">
+        <view class="text" bindtap='tojudge'>{{items.name}}</view>
+      </view>
+      <view class="add">
+        <image class="addgo" src="/pages/add.png"></image>
+    
+    </view>
+  </view>
+</view>
+<view class="zero-list" wx:if="{{teacherlist.length==0}}">没有找到该老师</view>

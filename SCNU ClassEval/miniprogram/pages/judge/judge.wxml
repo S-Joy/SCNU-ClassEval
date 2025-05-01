@@ -1,0 +1,90 @@
+<view class="outter">
+  <view class="container1">
+  <view class="topcon">
+    <view class="bg"></view>
+    <view class="teainfo">
+      <view class="picbox">
+        <image class="pic"
+          src="{{teacher.sex=='female'?'https://i.loli.net/2021/02/03/4wu95l176YEUiAy.png':'https://i.loli.net/2021/02/03/GBrcAbYvCtWFniy.png'}}">
+        </image>
+      </view>
+      <view class="text">
+        <view class="teaname">任课老师：{{teacher.name}}</view>
+        <view class="teacourse">科目：{{teacher.class}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="top-bar">
+  <view class='switch-hot'>
+    <view class='hot-item {{switchItem===0 ? "active" :""}}' bindtap='selectItem' data-item='{{0}}'>评分</view>
+    <view class='hot-item {{switchItem===1 ? "active" :""}}' bindtap='selectItem' data-item='{{1}}'>评价</view>
+  </view>
+</view>
+
+<view hidden="{{switchItem===1}}">
+  <view class="judge">
+    <view class="tip">
+      <view class="title">评分规则：</view>
+      <view class="text">分数与评分点成正比，如签到少的分数越高，表示该老师越少点名.</view>
+    </view>
+    <view class='num'>已经有{{currentnum}}人进行了评分</view>
+    <myprogress id='progress1' class="progress1" currentProgress='5' maxProgress="10" canSlide='true'
+      progressName='纯干货 ' pencent-text='new1' />
+    <myprogress id='progress2' class="progress2" currentProgress='5' maxProgress="10" canSlide='true' progressName='给分高'
+      pencent-text='new2' />
+    <myprogress id='progress3' class="progress3" currentProgress='5' maxProgress="10" canSlide='true' progressName='签到少'
+      pencent-text='new3' />
+    <myprogress id='progress4' class="progress4" currentProgress='5' maxProgress="10" canSlide='true' progressName='实践性'
+      pencent-text='new4' />
+
+    <view class="subbtn" bindtap="submit">提交</view>
+  </view>
+  <view class="piechart">
+    <view class="canbox">
+      <!-- <canvas canvas-id="Canvas" style="width: 1400rpx; height: 500rpx" ></canvas> -->
+      <canvas canvas-id="ringCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+      <!-- <canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandler" style="height:300px"></canvas> -->
+    </view>
+  </view>
+</view>
+
+<view hidden="{{switchItem===0}}">
+  <view class="comment">
+    <view class="input">
+      <view hidden="{{switchItem===0}}">
+        <textarea placeholder-class="place-holder" class="inputgo" placeholder="请输入内容" bindinput='expInput'
+        value="{{inputValue}}" ></textarea></view>
+      
+        <view class="btnwrapper">
+          <view class="fbbtn" bindtap="fabiao">提交</view>
+
+        </view>      
+    </view>
+    <view class="kong">Comments</view>
+    <block wx:for="{{commentsdata}}" wx:key="index">
+      <view class="cell-list">
+        <view class="cell-circle"></view>
+        <view class="cell-line">
+          <view class="cell-name">{{item.username}}:</view>
+          <view class="cell-content">{{item.content}}</view>
+          <view class="bottomcon">
+            <view class="cell-like" bindtap="onlikeTap" data-islike="{{item.islike}}" data-dex="{{index}}"
+            data-username="{{item.username}}">
+              <image src="{{item.islike == 1?'/img/liked.png':'/img/like.png'}}" />
+            </view>
+            <view class="likenum">{{item.likenum}}</view>
+            <view class="cell-date">
+              <text>{{item.date}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+</view>
+
+
+

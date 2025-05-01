@@ -1,0 +1,247 @@
+.outter {
+  height: 100%;
+
+  overflow-x: hidden;
+}
+
+.teainfo {
+  width: 500rpx;
+  align-items: center;
+  height: 350rpx;
+  border-radius: 30rpx;
+  background: white;
+  box-shadow: 6px 4px 16px 0px rgba(0, 0, 0, 0.1);
+  color: black;
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  margin-left: -250rpx;
+}
+
+.picbox {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 auto;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.tip .text,
+.teainfo .text {
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx 50rpx;
+  font-size: 30rpx;
+  color: rgba(83, 92, 104, 1.0);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.num {
+  margin: 30rpx 50rpx;
+  font-size: 30rpx;
+  color: rgb(15, 49, 94);
+
+}
+
+.tip .title {
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx 50rpx;
+  font-size: 35rpx;
+  color: black;
+  justify-content: space-between;
+
+}
+
+.topcon {
+  position: relative;
+  margin: 0;
+  width: 100vw;
+  height: 650rpx;
+
+}
+
+.bg {
+  width: 750rpx;
+  height: 450rpx;
+  background-image: url(https://7363-scnuca-4gp9nq6bd1a6b150-1304921864.tcb.qcloud.la/teacherbg.png?sign=771ca737e4e6aff85e12306e47985eee&t=1614247326);
+  background-size: contain;
+  border-radius: 0 0 30rpx 30rpx;
+}
+
+.subbtn {
+  margin: 30rpx auto;
+  width: 100rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  background: #3498db;
+  color: white;
+  border-radius: 20rpx;
+}
+
+.piechart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 150rpx;
+  height: 50vh;
+}
+
+.judge {
+  margin: 50rpx 0 0 0;
+}
+
+.switch-hot {
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  justify-content: center;
+  margin: 10rpx 0;
+}
+
+.hot-item {
+  font-size: 35rpx;
+  color: #666;
+  width: 15vw;
+  text-align: center;
+  margin: 0 24rpx;
+  font-weight: 700;
+
+}
+
+.hot-item.active {
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+}
+
+.input {
+  height: 360rpx;
+  width: 600rpx;
+  background-color: #B4A4F6;
+  margin: 30rpx auto;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  color: black;
+  font-size: 30rpx;
+}
+
+.inputgo {
+  height: 360rpx;
+  width: 600rpx;
+}
+
+.btnwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.fbbtn {
+
+  width: 300rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: rgba(236, 240, 241, 1.0);
+  text-align: center;
+  color: rgba(44, 62, 80, 1.0);
+  border-radius: 10rpx;
+  font-weight: bold;
+}
+
+
+.place-holder {
+  color: black;
+}
+
+.comment {
+  padding-bottom: 150rpx;
+}
+
+.kong {
+  font-family: Helvetica;
+  height: 50rpx;
+  width: 600rpx;
+  margin-left: 55rpx;
+  margin-top: 50rpx;
+  font-weight: 900;
+  margin-bottom: 30rpx;
+}
+
+.cell-list {
+  background: #fff;
+  margin: 5rpx 50rpx 5rpx 50rpx;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
+  border-left: 2rpx solid black
+}
+
+.cell-line {
+  padding-top: 10rpx;
+  margin-left: 5rpx;
+  margin-bottom: 15rpx;
+  height: 200rpx;
+  background: #fff;
+}
+
+.cell-content {
+  padding-top: 30rpx;
+  margin-left: 30rpx;
+  height: 75rpx;
+  font-family: Helvetica;
+  font-size: 30rpx;
+}
+
+.cell-name {
+  font-size: 35rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+  font-family: Helvetica;
+  font-weight: 500;
+  color: #747d8c;
+}
+
+.bottomcon {
+  display: flex;
+  flex-direction: row;
+  padding-left: 400rpx;
+  width: 300rpx;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cell-like {
+  font-size: 30rpx;
+  width: 45rpx;
+  height: 45rpx;
+  color: #747d8c;
+  margin-right: 10rpx;
+  position: relative;
+
+}
+
+.cell-like image {
+  width: 45rpx;
+  height: 45rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cell-date {
+  font-size: 28rpx;
+  width: 144rpx;
+  font-family: Helvetica;
+  color: #747d8c;
+}
+
+.likenum {
+  color: gray;
+  font-size: 30rpx;
+  margin-right: 30rpx;
+  line-height: 36rpx;
+}

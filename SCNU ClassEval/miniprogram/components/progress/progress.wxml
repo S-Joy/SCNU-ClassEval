@@ -1,0 +1,13 @@
+
+
+<view class='progress-root-container'>
+<view class="cat">{{progressName}}</view>
+  <!-- <view class='pencent-text' style="left:{{1.8*buttonLeft}}rpx;color:{{color}}">{{progressText}}</view> -->
+  <view class='pencent-text' style="color:{{color}}">{{progressText}}</view>
+  <!-- <view class='pencent-text-mask' style="width:{{0.41*progress}}rpx;"></view> -->
+  <view class='progress-max'></view>
+  <view class='progress-current' style="width:{{2*progress}}rpx"></view>
+  <view class='slice-button'  catchtouchmove="buttonMove" catchtouchstart="buttonStart" catchtouchend="buttonEnd" style="left:{{2*buttonLeft}}rpx "></view>
+  <!-- <view class="icon {{icontype}}" style="color:{{color}}"></view> -->
+</view>
+
