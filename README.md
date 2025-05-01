@@ -47,19 +47,23 @@
 
 ## 📸 UI Preview
 
-| Main Page | Rating Page | Leaderboard |
-|-----------|-------------|-------------|
-| ![Main](assets/Mainpage.png) | ![Rating](assets/Evaluatepage1.png) | ![Leaderboard](assets/Ranking.png) |
+| Main Page | Login Page | Ranking Page |
+|-----------|------------|--------------|
+| ![Mainpage](assets/Mainpage.png) | ![Loginpage](assets/Loginpage.png) | ![Ranking](assets/Ranking.png) |
 
-| Course Page | Teacher Page | Login Page |
-|-------------|--------------|-------------|
-| ![Course](assets/Coursepage.png) | ![Teacher](assets/Teacher.png) | ![Login](assets/Loginpage.png) |
+| Course Page | Evaluate Page 1 | Evaluate Page 2 |
+|-------------|------------------|------------------|
+| ![Coursepage](assets/Coursepage.png) | ![Evaluatepage1](assets/Evaluatepage1.png) | ![Evaluatepage2](assets/Evaluatepage2.png) |
+
+| Teacher Page | Typing Page |
+|--------------|-------------|
+| ![Teacher](assets/Teacher.png) | ![Typingpage](assets/Typingpage.png) |
 
 ---
 
 ## 🤝 Collaboration & Deployment
 
-This project can be adapted for other academic institutions.  
+This project can be adapted and expanded for broader academic institutions.  
 For deployment instructions or collaboration inquiries, feel free to reach out.
 
 ---
