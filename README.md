@@ -70,7 +70,8 @@ It includes all frontend and backend files, database schema, and development scr
 
 ## 🎥 Promotional Video
 
-Watch the demo video in the `master` branch or [click here](#) to view (replace this with actual video link).
+You can watch the demo video from the `master` branch [here](https://github.com/S-Joy/SCNU-ClassEval/blob/master/Video.m4v).  
+To download it, click the link above and then choose **"Download"** on the top-right corner.
 
 ---
 
