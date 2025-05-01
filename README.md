@@ -61,6 +61,19 @@
 
 ---
 
+## 📂 Source Code
+
+Full project source code is available in the [`master`](https://github.com/S-Joy/SCNU-ClassEval/tree/master) branch.  
+It includes all frontend and backend files, database schema, and development scripts.
+
+---
+
+## 🎥 Promotional Video
+
+Watch the demo video in the `master` branch or [click here](#) to view (replace this with actual video link).
+
+---
+
 ## 🤝 Collaboration & Deployment
 
 This project can be adapted and expanded for broader academic institutions.  
